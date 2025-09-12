@@ -404,6 +404,9 @@ FodyWeavers.xsd
 !.vscode/extensions.json
 !.vscode/*.code-snippets
 
+# Idea files
+.idea/*
+
 # Local History for Visual Studio Code
 .history/
 

@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
@@ -8,6 +8,13 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.8" />
+	  <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CleanArchitectureCSFS.Application.UseCases\CleanArchitectureCSFS.Application.UseCases.fsproj" />
+    <ProjectReference Include="..\CleanArchitectureCSFS.Infrastructure.REST\CleanArchitectureCSFS.Infrastructure.REST.fsproj" />
+    <ProjectReference Include="..\CleanArchitectureCSHS.Infrastructure.DataAccess\CleanArchitectureCSHS.Infrastructure.DataAccess.csproj" />
   </ItemGroup>
 
 </Project>

@@ -7,7 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CleanArchitectureCSFS.Application.Contracts\CleanArchitectureCSFS.Application.Contracts.csproj" />
     <ProjectReference Include="..\CleanArchitectureCSFS.Domain\CleanArchitectureCSFS.Domain.csproj" />
   </ItemGroup>
 

@@ -6,7 +6,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="Library.fs" />
+    <Compile Include="Handlers\GetUserHandler.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CleanArchitectureCSFS.Application.Contracts\CleanArchitectureCSFS.Application.Contracts.csproj" />
   </ItemGroup>
 
 </Project>

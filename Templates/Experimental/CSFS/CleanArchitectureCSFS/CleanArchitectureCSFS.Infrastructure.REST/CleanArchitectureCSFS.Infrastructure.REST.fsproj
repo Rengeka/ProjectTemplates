@@ -6,7 +6,17 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="Library.fs" />
+    <Compile Include="Extentions\WebApplicationExtentions.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CleanArchitectureCSFS.Application.Contracts\CleanArchitectureCSFS.Application.Contracts.csproj" />
+    <ProjectReference Include="..\CleanArchitectureCSFS.Application.UseCases\CleanArchitectureCSFS.Application.UseCases.fsproj" />
+    <ProjectReference Include="..\CleanArchitectureCSFS.Domain\CleanArchitectureCSFS.Domain.csproj" />
   </ItemGroup>
 
 </Project>

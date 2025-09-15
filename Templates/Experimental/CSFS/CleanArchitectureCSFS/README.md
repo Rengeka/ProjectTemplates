@@ -17,6 +17,10 @@ A modern, modular ASP.NET Core template combining the power of **C#** and **F#**
 - **C#**: Familiar, rich ecosystem, great for enterprise logic and tooling.
 - **F#**: Concise, expressive, ideal for defining clean, composable endpoints.
 
+## ⚠️ Important Note
+
+> When working with a mixed C# + F# solution, **any changes in F# code require recompilation of the Assembly** for C# to see the updates (and vice versa). Always rebuild the project/solution after modifying code in the other language to avoid runtime errors or stale metadata.
+
 ## 🛠️ Getting Started
 
 ### Prerequisites

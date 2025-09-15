@@ -6,6 +6,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="EndpointGroups\ApiEndpointAttribute.fs" />
+    <Compile Include="EndpointGroups\IEndpointGroup.fs" />
+    <Compile Include="EndpointGroups\User\Endpoints\GetUserEndpoint.fs" />
+    <Compile Include="EndpointGroups\User\UserEndpointGroup.fs" />
     <Compile Include="Extentions\WebApplicationExtentions.fs" />
   </ItemGroup>
 

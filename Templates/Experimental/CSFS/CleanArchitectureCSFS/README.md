@@ -21,6 +21,8 @@ A modern, modular ASP.NET Core template combining the power of **C#** and **F#**
 
 > When working with a mixed C# + F# solution, **any changes in F# code require recompilation of the Assembly** for C# to see the updates (and vice versa). Always rebuild the project/solution after modifying code in the other language to avoid runtime errors or stale metadata.
 
+> Do not forget to read [ADR](./docs/decisions/0000-03-10-2025-combining-fsharp-with-csharp.md) before starting working with this template!
+
 ## 🛠️ Getting Started
 
 ### Prerequisites

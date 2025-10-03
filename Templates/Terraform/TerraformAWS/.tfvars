@@ -1,0 +1,8 @@
+region        = "us-west-2"
+instance_type = "t3.micro"
+environment  = "dev"
+enable_backup = true
+tags = {
+  Owner       = "team-alpha"
+  Project     = "terraform-aws"
+}

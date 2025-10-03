@@ -1,0 +1,84 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+bin/
+obj/
+out/
+
+# Rider IDE
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+
+# Packages folder
+packages/
+
+# Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# DotCover
+*.dotCover
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+
+# MonoDevelop
+*.userprefs
+
+# Backup & report files
+*.bak
+*.backup
+*.log
+*.tlog/
+*.vspscc
+*.vssscc
+*_i.c
+*_p.c
+*_h.h
+*.ilk
+*.meta
+
+# F# interactive files
+.fsx.*
+
+# Others
+*.dbmdl
+*.dbproj.schemaview
+
+# Publish
+publish/
+
+# Test results
+TestResults/
+
+# Temporary files
+*.tmp
+*.temp
+
+# JetBrains Rider
+.idea/
+.vs/
+*.sln.iml
+
+# Dotnet watch files
+dotnet-watch.json
+
+# Microsoft Azure Web App publish settings
+.publishsettings

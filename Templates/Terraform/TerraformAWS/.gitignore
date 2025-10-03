@@ -1,0 +1,27 @@
+# Terraform state
+*.tfstate
+*.tfstate.backup
+
+# Crash log files
+crash.log
+crash.*.log
+
+# .terraform/ directory
+.terraform/
+
+# Local variable overrides (e.g. used for secrets) 
+# !Do not commit .tfvars and .tfvars.json
+# These filse are showed here as a sample
+# *.tfvars
+# *.tfvars.json
+
+# Sensitive data files
+secret.auto.tfvars
+override.tf
+override.tf.json
+
+# Plan output files
+*.tfplan
+
+# Terraform lock file (optional — см. ниже)
+.terraform.lock.hcl

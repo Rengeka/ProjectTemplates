@@ -1,8 +1,7 @@
+# global
 region        = "us-west-2"
-instance_type = "t3.micro"
 environment  = "dev"
-enable_backup = true
-tags = {
-  Owner       = "team-alpha"
-  Project     = "terraform-aws"
-}
+
+# nginx vm
+nginx_instance_type = "t3.micro"
+nginx_ami = "ami"

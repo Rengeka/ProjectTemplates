@@ -1,0 +1,5 @@
+config HELLO_WORLD
+    tristate "Hello World Module"
+    default n
+    help
+      This is a simple sample kernel module template"

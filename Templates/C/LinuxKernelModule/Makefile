@@ -1,0 +1,1 @@
+obj-$(CONFIG_HELLO_WORLD) += module.o
